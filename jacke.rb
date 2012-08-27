@@ -11,14 +11,14 @@ end
 
 
 enable :sessions
-set :public, Proc.new { File.join(root, "site") }
+set :public, Proc.new { File.join(root, "public") }
 before do 
  response.headers['Cache-Control'] = 'public, max-age=31557600'
 end
 
 protect do
   get '/' do
-   File.read('site/index.html')
+   File.read('public/index.html')
   end
 
 =begin
