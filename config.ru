@@ -1,2 +1,3 @@
-require 'jacke'
+
+require './jacke'
 run Sinatra::Application
