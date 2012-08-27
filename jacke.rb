@@ -20,7 +20,7 @@ protect do
   get '/' do
    File.read('site/index.html')
   end
-end
+
 =begin
 post '/sendmail' do
   name = params[:name]
