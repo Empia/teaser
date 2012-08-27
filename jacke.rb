@@ -1,7 +1,14 @@
 require 'rubygems'
 require 'sinatra'
 require 'sinatra/flash'
+require 'sinatra/basic_auth'
 require 'pony'
+
+# Specify your authorization logic
+authorize do |username, password|
+  username == "john" && password == "doe"
+end
+
 
 enable :sessions
 set :public, Proc.new { File.join(root, "site") }
@@ -9,10 +16,12 @@ before do
  response.headers['Cache-Control'] = 'public, max-age=31557600'
 end
 
-get '/' do
- File.read('site/index.html')
+protect do
+  get '/' do
+   File.read('site/index.html')
+  end
 end
-
+=begin
 post '/sendmail' do
   name = params[:name]
   mail = params[:email]
@@ -40,4 +49,6 @@ post '/sendmail' do
       '<script>$(".message").hide("slow").show("slow"); </script><b>Спасибо!</b><ul><li>Entering your email address?</li><li>Entering a message?</li>'
     end
   '<script>$(".message").hide("slow").show("slow"); </script><b>Спасибо!</b><ul><li>Мы с вами свяжемся</li>'
+=end
+
 end
