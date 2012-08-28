@@ -60,5 +60,7 @@ article#form h1 {
 text-transform: uppercase;
 font: 45px/48px 'bebas-neue', Arial, Helvetica, sans-serif;
 color: black;
-text-shadow: 0 0 5px rgba(255, 255, 255)
+}
+section#social {
+	padding-bottom: 12px;
 }
