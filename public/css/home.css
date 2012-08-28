@@ -45,6 +45,7 @@ div.container-fluid header {
 width: 114.2%;
 margin-left: -7%;
 background: whitesmoke;
+padding: 0px 0px 30px 0px;
 }
 .container-fluid {
 	display: inline-block;
