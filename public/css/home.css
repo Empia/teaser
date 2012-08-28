@@ -51,3 +51,14 @@ padding: 0px 0px 30px 0px;
 	display: inline-block;
 	background: rgba(163, 200, 235, 0.83);
 }
+
+form.bs-docs-example {
+	padding-top: 30px;
+}
+
+article#form h1 {
+text-transform: uppercase;
+font: 45px/48px 'bebas-neue', Arial, Helvetica, sans-serif;
+color: black;
+text-shadow: 0 0 5px rgba(255, 255, 255)
+}
