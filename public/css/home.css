@@ -65,9 +65,11 @@ section#social {
 	padding-bottom: 12px;
 }
 span.title{
-	margin-bottom: 6px;
+margin-bottom: 6px;
 position: absolute;
 font-size: 28px;
+margin: -17px 20px;
+padding:0;
 }
 button.btn.btn-primary {
 border-radius: 50px;
