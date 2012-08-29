@@ -68,3 +68,15 @@ span.title{
 position: absolute;
 font-size: 28px;
 }
+button.btn.btn-primary {
+border-radius: 50px;
+background-color: rgba(232, 232, 232, 0.5);
+background-image: -moz-radial-gradient(center center, circle cover, rgba(232, 232, 232, 0.5), #C9C9C9 38px);
+background-image: -webkit-radial-gradient(center center, circle cover, rgba(240, 240, 240, 0.53), #313131 38px);
+background-image: -o-radial-gradient(center center, circle cover, rgba(232, 232, 232, 0.5), #C9C9C9 38px);
+background-image: -ms-radial-gradient(center center, circle cover, rgba(232, 232, 232, 0.5), #C9C9C9 38px);
+background-image: radial-gradient(center center, circle cover, rgba(232, 232, 232, 0.5), #C9C9C9 38px);
+}
+input.text{
+	border-radius:50px;
+}
