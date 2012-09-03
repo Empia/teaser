@@ -18,8 +18,6 @@ body {
     position: relative;
     text-align: center;
     text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4), 0 0 30px rgba(0, 0, 0, 0.075);
-}
-body {
     display: table;
     height: 100%;
     left: 0;
@@ -29,6 +27,14 @@ body {
     top: 0;
     width: 100%;
 }
+@media only screen and (min-width: 1px) and (max-width: 764px) {
+  /* line 56, ../sass/style.scss */
+  body{
+ -webkit-animation: none;
+    animation: none;
+  }
+}
+       
 section#box {
     display: table-cell;
     position: relative;
