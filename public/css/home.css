@@ -57,10 +57,10 @@ div.container-fluid header {
 }
 article#ready p{
 line-height: 20px;
-width: 580px;
+width: 30em;
 }
-article#fready h2{
-    width: 580px;
+article#ready h2{
+    width: 30em;
     line-height: 60px;
 }
 
