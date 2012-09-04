@@ -13,11 +13,12 @@ configure do
 
 end
 
-
+=begin
 # Specify your authorization logic
 authorize do |username, password|
   username == "john" && password == "doe"
 end
+=end
 
 
 enable :sessions
@@ -26,7 +27,7 @@ before do
  response.headers['Cache-Control'] = 'public, max-age=31557600'
 end
 
-protect do
+#protect do
   get '/' do
    File.read(File.join('public', 'index.html'))
   end
