@@ -2,7 +2,7 @@
 Stanislav Sobolev
 */
 function ready() {
-  $('#ready').load('ready.html');
+  $('#ready').load('ready');
   $("#form").hide();
     e.preventDefault();
 }
