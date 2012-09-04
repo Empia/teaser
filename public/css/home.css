@@ -60,8 +60,9 @@ line-height: 20px;
 width: 30em;
 }
 article#ready h2{
-    width: 30em;
+    width: 19em;
     line-height: 60px;
+    font-size: 22px;
 }
 
 form.bs-docs-example {

@@ -4,6 +4,8 @@ Stanislav Sobolev
 function ready() {
   $('#ready').load('ready');
   $("#form").hide();
+  $("div.container-fluid header:hover").css("background-position"),("50%,-1px"); 
+
     e.preventDefault();
 }
 $(document).ready(function() {
