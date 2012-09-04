@@ -30,6 +30,9 @@ protect do
   get '/' do
    File.read(File.join('public', 'index.html'))
   end
+   get '/ready' do
+   File.read(File.join('public', 'ready.html'))
+  end
 
 post '/signup' do
   email = params[:email]
