@@ -5,6 +5,15 @@ require 'sinatra/basic_auth'
 require 'pony'
 require 'hominid' # MailChimp
 
+configure do
+
+  # MailChimp configuration: ADD YOUR OWN ACCOUNT INFO HERE!
+  set :mailchimp_api_key, "YOUR MAILCHIMP API KEY HERE"
+  set :mailchimp_list_name, "YOUR MAILCHIMP LIST NAME HERE"
+
+end
+
+
 # Specify your authorization logic
 authorize do |username, password|
   username == "john" && password == "doe"
