@@ -206,6 +206,9 @@ MEDIA
     section#box {
     top: -80px;
     }
+   .btn-primary {
+    background-color: #C9C9C9;
+   }
 }
 
 /*END*/
