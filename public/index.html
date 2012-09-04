@@ -54,7 +54,7 @@
 				<header>
 		            <span class="title">Empire Industries</span>
 				</header>
-					<article id="ready" style="display:none;">
+					<article id="refady" style="display:none;">
 						<h3>
 						Agile deployment for Ruby, Node.js, Clojure, Java, Python, and Scala.
 						</h3>
@@ -66,18 +66,20 @@
 						</ul>
 					
 					</article>
-
+					<article id="ready">
+					</article>
 					<article id="form">
-						<h1>World <a href="#about">prepare!</a></h1>
+						<h1>World <a href="#about" onClick="ready">prepare!</a></h1>
 						
-						<form action="subscribe.php" class="bs-docs-example form-search">
+						<form action="/signup" class="bs-docs-example form-search">
 	                    <input type="email" name="email" class="text" placeholder="Enter your email address">
-	                    <button class="btn btn-primary" type="submit"></button>
+	                    <button class="btn btn-primary" type="submit" value="Subscribe"></button>
 		                </form>
 
-						<div class="confirm">
-                    <p style="display:none;">Thanks! Stay tuned.</p>
-					<div style="height: 20px;"></div>
+						<div id="notices">
+						<div id="success" style="display: none;">Success! You're on the list.</div>
+						<div id="error" style="display: none;">Sorry, we couldn't validate your email. Try again?
+						</div>
                 </div>
 					</article>				
 				<section id="social">
