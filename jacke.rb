@@ -8,8 +8,8 @@ require 'hominid' # MailChimp
 configure do
 
   # MailChimp configuration: ADD YOUR OWN ACCOUNT INFO HERE!
-  set :mailchimp_api_key, "YOUR MAILCHIMP API KEY HERE"
-  set :mailchimp_list_name, "YOUR MAILCHIMP LIST NAME HERE"
+  set :mailchimp_api_key, "e78fe34c7835335c66b52e6c2b7c05aa-us5"
+  set :mailchimp_list_name, "Empire Industries Newsletter"
 
 end
 
