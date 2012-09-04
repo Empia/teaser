@@ -28,7 +28,7 @@ end
 
 protect do
   get '/' do
-   File.read('public/index.html')
+   File.read('public', 'index.html')
   end
 
 =begin
