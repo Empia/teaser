@@ -30,7 +30,7 @@ protect do
   get '/' do
    File.read('public', 'index.html')
   end
-
+end
 
 post '/signup' do
   email = params[:email]
