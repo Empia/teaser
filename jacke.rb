@@ -30,9 +30,10 @@ protect do
   get '/' do
    File.read('public', 'index.html')
   end
-  get '/ready' do
-   File.read('public', 'ready.html')
-  end
+get '/ready' do
+ File.read('public', 'ready.html')
+end
+end
 
 
 post '/signup' do
