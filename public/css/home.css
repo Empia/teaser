@@ -198,12 +198,13 @@ MEDIA
   body{
  -webkit-animation: none;
     animation: none;
+    background-image:none;
   }
   span.title{
     font-size: 30px;
   }
     section#box {
-    top: -65px;
+    top: -70px;
     }
 }
 
