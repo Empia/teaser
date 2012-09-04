@@ -27,16 +27,7 @@ body {
     top: 0;
     width: 100%;
 }
-@media only screen and (min-width: 1px) and (max-width: 764px) {
-  /* line 56, ../sass/style.scss */
-  body{
- -webkit-animation: none;
-    animation: none;
-  }
-  span.title{
-    font-size: 36px;
-  }
-}
+
        
 section#box {
     display: table-cell;
@@ -198,6 +189,29 @@ background-position: -83px 0px;
 .icon-gplus {
 background-position: -127px 0px;
 }
+
+/*
+MEDIA
+*/
+@media only screen and (min-width: 1px) and (max-width: 764px) {
+  /* line 56, ../sass/style.scss */
+  body{
+ -webkit-animation: none;
+    animation: none;
+  }
+  span.title{
+    font-size: 30px;
+  }
+    section#box {
+    top: -50px;
+    }
+}
+
+/*END*/
+
+
+
+
 
 
 
