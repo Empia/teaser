@@ -40,7 +40,7 @@ post '/signup' do
     mailchimp.list_subscribe(list_id, email, {}, 'html', false, true, true, false)
   end
   "Success."
-
+end
 =begin
 post '/sendmail' do
   name = params[:name]
