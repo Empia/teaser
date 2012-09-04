@@ -101,3 +101,10 @@ src: url('http://codemyconcept.com/fonts/bebasneue-webfont.eot?#iefix') format('
 font-weight: normal;
 font-style: normal;
 }
+
+@font-face {
+    font-family: 'Sanvito';
+    font-style: normal;
+    font-weight: normal;
+    src: url('/fonts/SanvitoProLightSubhead.ttf');
+}
