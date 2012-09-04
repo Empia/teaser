@@ -55,11 +55,11 @@ div.container-fluid header {
     display: inline-block;
     border-radius: 2px;
 }
-articleready.p{
+article#ready p{
 line-height: 20px;
 width: 580px;
 }
-articleready.h2{
+article#fready h2{
     width: 580px;
     line-height: 60px;
 }
