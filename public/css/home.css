@@ -1,4 +1,4 @@
-@import "reset.css";
+@import "css/reset.css";
 body {
     background-attachment: fixed;
     background-clip: border-box;
@@ -60,7 +60,7 @@ line-height: 20px;
 width: 30em;
 }
 article#ready h2{
-    /*width: 14em;*/
+    width: 14em;
     line-height: 60px;
     font-size: 22px;
 }
