@@ -1,6 +1,8 @@
 /* Author:
 Stanislav Sobolev
 */
+var _sf_startpt=(new Date()).getTime()
+
 function ready() {
   $('#ready').load('ready');
   $("#form").hide();
