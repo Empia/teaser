@@ -1,0 +1,102 @@
+2012-09-07T06:05:10+00:00 heroku[nginx]: 217.118.83.138 - - [07/Sep/2012:06:05:10 +0000] "GET / HTTP/1.1" 200 1743 "-" "Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; ru-ru) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5" empireinc.net
+2012-09-07T06:05:12+00:00 heroku[router]: GET empireinc.net/fonts/fonts.css dyno=web.1 queue=0 wait=0ms service=3ms status=200 bytes=4111
+2012-09-07T06:05:12+00:00 heroku[router]: GET empireinc.net/css/home.css dyno=web.1 queue=0 wait=0ms service=3ms status=200 bytes=6522
+2012-09-07T06:05:12+00:00 heroku[nginx]: 217.118.83.138 - - [07/Sep/2012:06:05:12 +0000] "GET /fonts/fonts.css HTTP/1.1" 200 715 "http://empireinc.net/" "Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; ru-ru) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5" empireinc.net
+2012-09-07T06:05:12+00:00 heroku[router]: GET empireinc.net/css/bootstrap-responsive.css dyno=web.1 queue=0 wait=0ms service=4ms status=200 bytes=20470
+2012-09-07T06:05:12+00:00 heroku[nginx]: 217.118.83.138 - - [07/Sep/2012:06:05:12 +0000] "GET /css/home.css HTTP/1.1" 200 1943 "http://empireinc.net/" "Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; ru-ru) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5" empireinc.net
+2012-09-07T06:05:12+00:00 heroku[router]: GET empireinc.net/css/bootstrap.css dyno=web.1 queue=0 wait=0ms service=10ms status=200 bytes=115082
+2012-09-07T06:05:13+00:00 heroku[nginx]: 217.118.83.138 - - [07/Sep/2012:06:05:13 +0000] "GET /css/bootstrap-responsive.css HTTP/1.1" 200 4131 "http://empireinc.net/" "Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; ru-ru) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5" empireinc.net
+2012-09-07T06:05:13+00:00 heroku[nginx]: 217.118.83.138 - - [07/Sep/2012:06:05:13 +0000] "GET /css/bootstrap.css HTTP/1.1" 200 17796 "http://empireinc.net/" "Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; ru-ru) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5" empireinc.net
+2012-09-07T06:05:13+00:00 heroku[router]: GET empireinc.net/js/libs/modernizr-2.0.min.js dyno=web.1 queue=0 wait=0ms service=10ms status=200 bytes=28234
+2012-09-07T06:05:13+00:00 app[web.1]: 217.118.83.138 - - [07/Sep/2012 06:05:12] "GET /fonts/fonts.css HTTP/1.1" 200 4111 0.0004
+2012-09-07T06:05:13+00:00 app[web.1]: ip-10-119-50-27.ec2.internal - - [07/Sep/2012:06:05:12 UTC] "GET /fonts/fonts.css HTTP/1.1" 200 4111
+2012-09-07T06:05:13+00:00 app[web.1]: http://empireinc.net/ -> /fonts/fonts.css
+2012-09-07T06:05:13+00:00 app[web.1]: 217.118.83.138 - - [07/Sep/2012 06:05:12] "GET /css/home.css HTTP/1.1" 200 6522 0.0004
+2012-09-07T06:05:13+00:00 app[web.1]: ip-10-218-31-248.ec2.internal - - [07/Sep/2012:06:05:12 UTC] "GET /css/home.css HTTP/1.1" 200 6522
+2012-09-07T06:05:13+00:00 app[web.1]: http://empireinc.net/ -> /css/home.css
+2012-09-07T06:05:13+00:00 app[web.1]: 217.118.83.138 - - [07/Sep/2012 06:05:12] "GET /css/bootstrap-responsive.css HTTP/1.1" 200 20470 0.0004
+2012-09-07T06:05:13+00:00 app[web.1]: ip-10-62-223-90.ec2.internal - - [07/Sep/2012:06:05:12 UTC] "GET /css/bootstrap-responsive.css HTTP/1.1" 200 20470
+2012-09-07T06:05:13+00:00 app[web.1]: http://empireinc.net/ -> /css/bootstrap-responsive.css
+2012-09-07T06:05:13+00:00 app[web.1]: 217.118.83.138 - - [07/Sep/2012 06:05:12] "GET /css/bootstrap.css HTTP/1.1" 200 115082 0.0005
+2012-09-07T06:05:13+00:00 app[web.1]: ip-10-44-143-126.ec2.internal - - [07/Sep/2012:06:05:12 UTC] "GET /css/bootstrap.css HTTP/1.1" 200 115082
+2012-09-07T06:05:13+00:00 app[web.1]: http://empireinc.net/ -> /css/bootstrap.css
+2012-09-07T06:05:13+00:00 app[web.1]: 217.118.83.138 - - [07/Sep/2012 06:05:13] "GET /js/libs/modernizr-2.0.min.js HTTP/1.1" 200 28234 0.0004
+2012-09-07T06:05:13+00:00 app[web.1]: ip-10-8-183-83.ec2.internal - - [07/Sep/2012:06:05:13 UTC] "GET /js/libs/modernizr-2.0.min.js HTTP/1.1" 200 28234
+2012-09-07T06:05:13+00:00 app[web.1]: http://empireinc.net/ -> /js/libs/modernizr-2.0.min.js
+2012-09-07T06:05:13+00:00 heroku[nginx]: 217.118.83.138 - - [07/Sep/2012:06:05:13 +0000] "GET /js/libs/modernizr-2.0.min.js HTTP/1.1" 200 8334 "http://empireinc.net/" "Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; ru-ru) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5" empireinc.net
+2012-09-07T06:05:14+00:00 app[web.1]: 217.118.83.138 - - [07/Sep/2012 06:05:14] "GET /css/css/reset.css HTTP/1.1" 404 18 0.0004
+2012-09-07T06:05:14+00:00 app[web.1]: http://empireinc.net/ -> /css/css/reset.css
+2012-09-07T06:05:14+00:00 app[web.1]: ip-10-8-230-161.ec2.internal - - [07/Sep/2012:06:05:14 UTC] "GET /css/css/reset.css HTTP/1.1" 404 18
+2012-09-07T06:05:14+00:00 heroku[router]: GET empireinc.net/css/css/reset.css dyno=web.1 queue=0 wait=0ms service=5ms status=404 bytes=18
+2012-09-07T06:05:14+00:00 heroku[nginx]: 217.118.83.138 - - [07/Sep/2012:06:05:14 +0000] "GET /css/css/reset.css HTTP/1.1" 404 18 "http://empireinc.net/" "Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; ru-ru) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5" empireinc.net
+2012-09-07T06:05:16+00:00 app[web.1]: domU-12-31-39-17-35-46.compute-1.internal - - [07/Sep/2012:06:05:16 UTC] "GET /js/script.js HTTP/1.1" 200 696
+2012-09-07T06:05:16+00:00 app[web.1]: 217.118.83.138 - - [07/Sep/2012 06:05:16] "GET /js/script.js HTTP/1.1" 200 696 0.0004
+2012-09-07T06:05:16+00:00 app[web.1]: http://empireinc.net/ -> /js/script.js
+2012-09-07T06:05:16+00:00 heroku[router]: GET empireinc.net/js/script.js dyno=web.1 queue=0 wait=0ms service=20ms status=200 bytes=696
+2012-09-07T06:05:16+00:00 app[web.1]: 217.118.83.138 - - [07/Sep/2012 06:05:16] "GET /img/social.png HTTP/1.1" 200 7095 0.0004
+2012-09-07T06:05:16+00:00 app[web.1]: ip-10-125-41-68.ec2.internal - - [07/Sep/2012:06:05:16 UTC] "GET /img/social.png HTTP/1.1" 200 7095
+2012-09-07T06:05:16+00:00 app[web.1]: http://empireinc.net/ -> /img/social.png
+2012-09-07T06:05:16+00:00 heroku[router]: GET empireinc.net/img/social.png dyno=web.1 queue=0 wait=0ms service=8ms status=200 bytes=7095
+2012-09-07T06:05:16+00:00 heroku[nginx]: 217.118.83.138 - - [07/Sep/2012:06:05:16 +0000] "GET /js/script.js HTTP/1.1" 200 696 "http://empireinc.net/" "Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; ru-ru) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5" empireinc.net
+2012-09-07T06:05:17+00:00 app[web.1]: 217.118.83.138 - - [07/Sep/2012 06:05:17] "GET /js/plugins.js HTTP/1.1" 200 898 0.0004
+2012-09-07T06:05:17+00:00 app[web.1]: ip-10-94-53-26.ec2.internal - - [07/Sep/2012:06:05:17 UTC] "GET /js/plugins.js HTTP/1.1" 200 898
+2012-09-07T06:05:17+00:00 app[web.1]: http://empireinc.net/ -> /js/plugins.js
+2012-09-07T06:05:17+00:00 heroku[router]: GET empireinc.net/js/plugins.js dyno=web.1 queue=0 wait=0ms service=4ms status=200 bytes=898
+2012-09-07T06:05:17+00:00 app[web.1]: 217.118.83.138 - - [07/Sep/2012 06:05:17] "GET /img/logo.png HTTP/1.1" 200 55142 0.0004
+2012-09-07T06:05:17+00:00 heroku[nginx]: 217.118.83.138 - - [07/Sep/2012:06:05:17 +0000] "GET /img/social.png HTTP/1.1" 200 7095 "http://empireinc.net/" "Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; ru-ru) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5" empireinc.net
+2012-09-07T06:05:17+00:00 app[web.1]: http://empireinc.net/ -> /img/logo.png
+2012-09-07T06:05:17+00:00 app[web.1]: ip-10-191-242-19.ec2.internal - - [07/Sep/2012:06:05:17 UTC] "GET /img/logo.png HTTP/1.1" 200 55142
+2012-09-07T06:05:17+00:00 heroku[router]: GET empireinc.net/img/logo.png dyno=web.1 queue=0 wait=0ms service=13ms status=200 bytes=55142
+2012-09-07T06:05:17+00:00 heroku[nginx]: 217.118.83.138 - - [07/Sep/2012:06:05:17 +0000] "GET /js/plugins.js HTTP/1.1" 200 898 "http://empireinc.net/" "Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; ru-ru) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5" empireinc.net
+2012-09-07T06:05:17+00:00 heroku[nginx]: 217.118.83.138 - - [07/Sep/2012:06:05:17 +0000] "GET /img/logo.png HTTP/1.1" 200 55142 "http://empireinc.net/" "Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; ru-ru) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5" empireinc.net
+2012-09-07T06:05:26+00:00 app[web.1]: 217.118.83.138 - - [07/Sep/2012 06:05:26] "GET /ready HTTP/1.1" 200 557 0.0004
+2012-09-07T06:05:26+00:00 app[web.1]: http://empireinc.net/ -> /ready
+2012-09-07T06:05:26+00:00 app[web.1]: ip-10-90-9-249.ec2.internal - - [07/Sep/2012:06:05:26 UTC] "GET /ready HTTP/1.1" 200 557
+2012-09-07T06:05:26+00:00 heroku[router]: GET empireinc.net/ready dyno=web.1 queue=0 wait=0ms service=4ms status=200 bytes=557
+2012-09-07T06:05:26+00:00 heroku[nginx]: 217.118.83.138 - - [07/Sep/2012:06:05:26 +0000] "GET /ready HTTP/1.1" 200 557 "http://empireinc.net/" "Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; ru-ru) AppleWe
+bKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5" empireinc.net
+2012-09-07T06:05:36+00:00 app[web.1]: 217.118.83.138 - - [07/Sep/2012 06:05:36] "GET / HTTP/1.1" 200 4355 0.0004
+2012-09-07T06:05:36+00:00 heroku[router]: GET empireinc.net/ dyno=web.1 queue=0 wait=0ms service=22ms status=200 bytes=4355
+2012-09-07T06:05:36+00:00 app[web.1]: http://empireinc.net/ -> /
+2012-09-07T06:05:36+00:00 app[web.1]: ip-10-87-150-48.ec2.internal - - [07/Sep/2012:06:05:36 UTC] "GET / HTTP/1.1" 200 4355
+2012-09-07T06:05:36+00:00 heroku[nginx]: 217.118.83.138 - - [07/Sep/2012:06:05:36 +0000] "GET / HTTP/1.1" 200 1743 "http://empireinc.net/" "Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; ru-ru) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5" empireinc.net
+2012-09-07T06:05:37+00:00 app[web.1]: 217.118.83.138 - - [07/Sep/2012 06:05:37] "GET / HTTP/1.1" 200 4355 0.0004
+2012-09-07T06:05:37+00:00 app[web.1]: ip-10-119-50-27.ec2.internal - - [07/Sep/2012:06:05:37 UTC] "GET / HTTP/1.1" 200 4355
+2012-09-07T06:05:37+00:00 app[web.1]: http://empireinc.net/ -> /
+2012-09-07T06:05:37+00:00 heroku[router]: GET empireinc.net/ dyno=web.1 queue=0 wait=0ms service=15ms status=200 bytes=4355
+2012-09-07T06:05:37+00:00 heroku[nginx]: 217.118.83.138 - - [07/Sep/2012:06:05:37 +0000] "GET / HTTP/1.1" 200 1742 "http://empireinc.net/" "Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; ru-ru) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5" empireinc.net
+2012-09-07T06:05:38+00:00 app[web.1]: 217.118.83.138 - - [07/Sep/2012 06:05:38] "GET /css/css/reset.css HTTP/1.1" 404 18 0.0005
+2012-09-07T06:05:38+00:00 app[web.1]: ip-10-119-50-27.ec2.internal - - [07/Sep/2012:06:05:38 UTC] "GET /css/css/reset.css HTTP/1.1" 404 18
+2012-09-07T06:05:38+00:00 app[web.1]: http://empireinc.net/ -> /css/css/reset.css
+2012-09-07T06:05:38+00:00 heroku[router]: GET empireinc.net/css/css/reset.css dyno=web.1 queue=0 wait=0ms service=4ms status=404 bytes=18
+2012-09-07T06:05:38+00:00 heroku[nginx]: 217.118.83.138 - - [07/Sep/2012:06:05:38 +0000] "GET /css/css/reset.css HTTP/1.1" 404 18 "http://empireinc.net/" "Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; ru-ru) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5" empireinc.net
+2012-09-07T06:05:47+00:00 app[web.1]: 37.113.184.45 - - [07/Sep/2012 06:05:47] "GET / HTTP/1.1" 200 4355 0.0004
+2012-09-07T06:05:47+00:00 app[web.1]: ip-10-191-242-19.ec2.internal - - [07/Sep/2012:06:05:47 UTC] "GET / HTTP/1.1" 200 4355
+2012-09-07T06:05:47+00:00 app[web.1]: http://empireinc.net/ -> /
+2012-09-07T06:05:47+00:00 heroku[router]: GET empireinc.net/ dyno=web.1 queue=0 wait=0ms service=7ms status=200 bytes=4355
+2012-09-07T06:05:47+00:00 heroku[nginx]: 37.113.184.45 - - [07/Sep/2012:06:05:47 +0000] "GET / HTTP/1.1" 200 1742 "http://empireinc.net/" "Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.9 (KHTML, like Gecko) Chrome/23.0.1257.0 Safari/537.9" empireinc.net
+2012-09-07T06:05:48+00:00 app[web.1]: 37.113.184.45 - - [07/Sep/2012 06:05:48] "GET /css/css/reset.css HTTP/1.1" 404 18 0.0005
+2012-09-07T06:05:48+00:00 app[web.1]: ip-10-94-39-69.ec2.internal - - [07/Sep/2012:06:05:48 UTC] "GET /css/css/reset.css HTTP/1.1" 404 18
+2012-09-07T06:05:48+00:00 app[web.1]: http://empireinc.net/ -> /css/css/reset.css
+2012-09-07T06:05:48+00:00 heroku[router]: GET empireinc.net/css/css/reset.css dyno=web.1 queue=0 wait=0ms service=10ms status=404 bytes=18
+2012-09-07T06:05:48+00:00 heroku[nginx]: 37.113.184.45 - - [07/Sep/2012:06:05:48 +0000] "GET /css/css/reset.css HTTP/1.1" 404 18 "http://empireinc.net/" "Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.9 (KHTML, like Gecko) Chrome/23.0.1257.0 Safari/537.9" empireinc.net
+2012-09-07T06:06:15+00:00 app[web.1]: 217.118.83.138 - - [07/Sep/2012 06:06:15] "GET /ready HTTP/1.1" 200 557 0.0004
+2012-09-07T06:06:15+00:00 app[web.1]: ip-10-227-19-71.ec2.internal - - [07/Sep/2012:06:06:15 UTC] "GET /ready HTTP/1.1" 200 557
+2012-09-07T06:06:15+00:00 app[web.1]: http://empireinc.net/ -> /ready
+2012-09-07T06:06:15+00:00 heroku[router]: GET empireinc.net/ready dyno=web.1 queue=0 wait=0ms service=3ms status=200 bytes=557
+2012-09-07T06:06:15+00:00 heroku[nginx]: 217.118.83.138 - - [07/Sep/2012:06:06:15 +0000] "GET /ready HTTP/1.1" 200 557 "http://empireinc.net/" "Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; ru-ru) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5" empireinc.net
+2012-09-07T06:07:10+00:00 app[web.1]: 37.113.184.45 - - [07/Sep/2012 06:07:10] "POST /signup HTTP/1.1" 200 8 0.0004
+2012-09-07T06:07:11+00:00 app[web.1]: ip-10-78-199-80.ec2.internal - - [07/Sep/2012:06:07:10 UTC] "POST /signup HTTP/1.0" 200 8
+2012-09-07T06:07:11+00:00 heroku[router]: POST empireinc.net/signup dyno=web.1 queue=0 wait=0ms service=44ms status=200 bytes=8
+2012-09-07T06:07:11+00:00 heroku[nginx]: 37.113.184.45 - - [07/Sep/2012:06:07:11 +0000] "POST /signup HTTP/1.1" 200 8 "http://empireinc.net/" "Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.9 (KHTML, like Gecko) Chrome/23.0.1257.0 Safari/537.9" empireinc.net
+2012-09-07T06:07:11+00:00 app[web.1]: http://empireinc.net/ -> /signup
+2012-09-07T06:07:24+00:00 app[web.1]: 217.118.83.138 - - [07/Sep/2012 06:07:24] "GET / HTTP/1.1" 200 4355 0.0004
+2012-09-07T06:07:24+00:00 app[web.1]: ip-10-92-97-233.ec2.internal - - [07/Sep/2012:06:07:24 UTC] "GET / HTTP/1.1" 200 4355
+2012-09-07T06:07:24+00:00 app[web.1]: http://empireinc.net/ -> /
+2012-09-07T06:07:24+00:00 heroku[router]: GET empireinc.net/ dyno=web.1 queue=0 wait=0ms service=4ms status=200 bytes=4355
+2012-09-07T06:07:24+00:00 heroku[nginx]: 217.118.83.138 - - [07/Sep/2012:06:07:24 +0000] "GET / HTTP/1.1" 200 1742 "http://empireinc.net/" "Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; ru-ru) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5" empireinc.net
+2012-09-07T06:07:25+00:00 app[web.1]: 217.118.83.138 - - [07/Sep/2012 06:07:25] "GET /css/css/reset.css HTTP/1.1" 404 18 0.0004
+2012-09-07T06:07:25+00:00 app[web.1]: ip-10-60-214-195.ec2.internal - - [07/Sep/2012:06:07:25 UTC] "GET /css/css/reset.css HTTP/1.1" 404 18
+2012-09-07T06:07:25+00:00 app[web.1]: http://empireinc.net/ -> /css/css/reset.css
+2012-09-07T06:07:25+00:00 heroku[router]: GET empireinc.net/css/css/reset.css dyno=web.1 queue=0 wait=0ms service=3ms status=404 bytes=18
+2012-09-07T06:07:26+00:00 heroku[nginx]: 217.118.83.138 - - [07/Sep/2012:06:07:26 +0000] "GET /css/css/reset.css HTTP/1.1" 404 18 "http://empireinc.net/" "Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; ru-ru) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5" empireinc.net
