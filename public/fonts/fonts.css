@@ -108,3 +108,13 @@ font-style: normal;
     font-weight: normal;
     src: url('/fonts/SanvitoProLightSubhead.ttf');
 }
+@font-face {
+    font-family: 'Gabriola';
+    font-style: normal;
+    font-weight: normal;
+    src: url('/fonts/Gabriola.eot');
+    src: url('/fonts/Gabriola.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/Gabriola.woff') format('woff'),
+         url('/fonts/Gabriola.ttf') format('truetype'),
+         url('/fonts/Gabriola.svg#Gabriola') format('svg');
+}
